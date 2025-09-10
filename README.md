@@ -1,6 +1,7 @@
 # Marketplace-Agents
 
 Local RAG with In-Memory Caching and Unified Chat Agent
+
 This project implements a local Retrieval-Augmented Generation (RAG) system with in-memory caching using Ollama and a simple Flask web interface. It includes two agents: a Price Suggestor and a Chat Moderation agent, operating on a local dataset.
 
 Project Components
@@ -21,7 +22,11 @@ Flask App and ngrok Interface: Provides a web interface to interact with the uni
 
 Setup and Run Instructions
 Open the Notebook: Open this Google Colab notebook.
-Mount Google Drive: Ensure your Google Drive is mounted to access the db.txt file. If not already mounted, you can do so using the file explorer in the left sidebar or by adding a code cell with from google.colab import drive and drive.mount('/content/drive').
+
+Mount Google Drive: Ensure your Google Drive is mounted to access the db.txt file. 
+
+If not already mounted, you can do so using the file explorer in the left sidebar or by adding a code cell with from google.colab import drive and drive.mount('/content/drive').
+
 Create db.txt: Make sure you have a text file named db.txt in your Google Drive at the path /content/drive/MyDrive/db.txt. The file should be in a comma-separated value (CSV) format with a header row, as described in the project plan.
 
 
